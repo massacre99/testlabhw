@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e2b393c-3a08-44e8-9923-c200914ccc2b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/testlab/CheckAdminMainMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/testlab/Constants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/testlab/LoginTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_13_1.xml" />
-      <change type="DELETED" beforePath="C:\Users\massacre99\testlabhw\src\main\java\testlab\App.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\massacre99\testlabhw\src\test\java\testlab\AppTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\massacre99\testlabhw\src\test\java\testlab\Test1.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\massacre99\testlabhw\target\classes\testlab\App.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\massacre99\testlabhw\target\test-classes\testlab\AppTest.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\massacre99\testlabhw\target\test-classes\testlab\Test1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\massacre99\testlabhw\target\test-classes\testlab\homework.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\massacre99\testlabhw\.idea\libraries\Maven__junit_junit_3_8_1.xml" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\massacre99\testlabhw\drivers\chromedriver.exe" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/testlab/BaseSetup.class" afterPath="$PROJECT_DIR$/target/classes/testlab/BaseSetup.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/testlab/CheckAdminMainMenu.class" afterPath="$PROJECT_DIR$/target/test-classes/testlab/CheckAdminMainMenu.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/testlab/BaseSetup.java" afterPath="$PROJECT_DIR$/src/main/java/testlab/BaseSetup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/testlab/CheckAdminMainMenu.java" afterPath="$PROJECT_DIR$/src/test/java/testlab/CheckAdminMainMenu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/testlabhw.iml" afterPath="$PROJECT_DIR$/.idea/testlabhw.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -44,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/testlab/CheckAdminMainMenu.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/testlab/BaseSetup.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="71" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="71" />
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,14 +57,34 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/testlab/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="54" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testlab/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40202704">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.43074325">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,15 +109,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/testlab/homework.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/testlab/Properties.java" />
         <option value="$PROJECT_DIR$/src/main/java/testlab/Constants.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testlab/CheckAdminMainMenu.java" />
         <option value="$PROJECT_DIR$/src/test/java/testlab/Test1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/testlab/BaseSetup.java" />
         <option value="$PROJECT_DIR$/src/test/java/testlab/LoginTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/testlab/CheckAdminMainMenu_v1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testlab/CheckAdminMainMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testlab/BaseSetup.java" />
       </list>
     </option>
   </component>
@@ -214,6 +228,24 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testlabhw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testlabhw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -242,6 +274,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\massacre99\testlabhw\src\main\resources" />
       <recent name="C:\Users\massacre99\testlabhw\src\test\java\testlab" />
       <recent name="C:\Users\massacre99\testlabhw\src\test" />
       <recent name="C:\Users\massacre99\testlabhw\drivers" />
@@ -276,6 +309,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="testlab.LoginTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="testlabhw" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CheckAdminMainMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="testlab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="testlab.CheckAdminMainMenu" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -551,35 +604,40 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Test1" />
       <item index="1" class="java.lang.String" itemvalue="Application.LoginTest" />
       <item index="2" class="java.lang.String" itemvalue="Application.CheckAdminMainMenu" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CheckAdminMainMenu" />
     </list>
     <recent_temporary>
-      <list size="3">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Application.LoginTest" />
         <item index="1" class="java.lang.String" itemvalue="Application.CheckAdminMainMenu" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Test1" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CheckAdminMainMenu" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Test1" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6e2b393c-3a08-44e8-9923-c200914ccc2b" name="Default" comment="" />
       <created>1519910362512</created>
       <option name="number" value="Default" />
       <updated>1519910362512</updated>
-      <workItem from="1519910370267" duration="11475000" />
+      <workItem from="1519910370267" duration="19983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11475000" />
+    <option name="totallyTimeSpent" value="19983000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-520" width="1936" height="1056" extended-state="7" />
+    <frame x="-1928" y="-520" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -608,6 +666,14 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -620,14 +686,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49330357">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -636,28 +694,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testlab/Constants.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22972973">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="65" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testlab/CheckAdminMainMenu.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/testlab/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/testlab/BaseSetup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="71" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="71" />
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testlab/CheckAdminMainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -666,8 +732,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testlab/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40202704">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.43074325">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
