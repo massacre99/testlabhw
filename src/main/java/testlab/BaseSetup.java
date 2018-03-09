@@ -1,51 +1,54 @@
 package testlab;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import java.io.File;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by massacre99 on 01.03.2018.
  */
 public class BaseSetup {
 
-
-    public static WebDriver getChromeDriver() {
-
-        String chromePath = new File(BaseSetup.class.getResource("/chromedriver.exe").getFile()).getPath();
-        System.setProperty("webdriver.chrome.driver",chromePath);
-//        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--start-maximized");
-        return new ChromeDriver(options);
-    }
-
-    public static void loginTest(WebDriver driver) throws InterruptedException {
-
-        driver.get(Constants.ADMIN_URL);
-        WebElement login = driver.findElement(By.id("email"));
-        WebElement password = driver.findElement(By.id("passwd"));
-        WebElement submitLoginPass = driver.findElement(By.name("submitLogin"));    // By.xpath("//button[@tabindex=4]")
-
-        login.sendKeys(Constants.ADMIN_LOGIN);
-        password.sendKeys(Constants.ADMIN_PASS);
-        Thread.sleep(1500);
-        submitLoginPass.click();
-        Thread.sleep(2000);
+    public static WebDriver getDriver() {
+        String browser = Constants.DEFAULT_BROWSER; //TODO переписать под вызов нужного браузера
+        switch (browser) {
+            case "firefox":
+                String ffPath = new File(BaseSetup.class.getResource("/geckodriver.exe").getFile()).getPath();
+                System.setProperty("webdriver.gecko.driver",ffPath);
+                return new FirefoxDriver();
+            case "ie":
+            case "internet explorer":
+                String iePath = new File(BaseSetup.class.getResource("/IEDriverServer.exe").getFile()).getPath();
+                System.setProperty("webdriver.ie.driver",iePath);
+                return new InternetExplorerDriver();
+            case "chrome":
+            default:
+                String chromePath = new File(BaseSetup.class.getResource("/chromedriver.exe").getFile()).getPath();
+                System.setProperty("webdriver.chrome.driver",chromePath);
+                return new ChromeDriver();
+        }
 
     }
 
-    public static void logoutTest(WebDriver driver) throws InterruptedException {
-        WebElement profile = driver.findElement(By.id("employee_infos"));
-        WebElement logout = driver.findElement(By.id("header_logout"));
-        profile.click();
-        Thread.sleep(1500);
-        logout.click();
-        Thread.sleep(1500);
-        driver.quit();
+    public static WebDriver getConfiguredDriver() {
+        WebDriver driver = getDriver();
+        driver.manage().window().maximize();
+        driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        return  driver;
     }
+
+//    public static WebDriver getChromeDriver1() {
+//
+//        String chromePath = new File(BaseSetup.class.getResource("/chromedriver.exe").getFile()).getPath();
+//        System.setProperty("webdriver.chrome.driver",chromePath);
+////        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe"); //"src/main/resources/chromedriver.exe"
+//        ChromeOptions options = new ChromeOptions();
+//        options.addArguments("--start-maximized");
+//        return new ChromeDriver(options);
+//    }
+
 }

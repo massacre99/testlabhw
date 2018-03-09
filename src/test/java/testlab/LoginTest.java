@@ -1,8 +1,8 @@
 package testlab;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import testlab.pages.DashboardPage;
+import testlab.pages.LoginPage;
 
 /**
  * Created by massacre99 on 01.03.2018.
@@ -10,10 +10,14 @@ import org.openqa.selenium.WebElement;
 public class LoginTest extends BaseSetup {
 
     public static void main(String[] args) throws InterruptedException {
+        WebDriver driver = getConfiguredDriver();
+        LoginPage loginPage = new LoginPage(driver);
+        DashboardPage dashboardPage = new DashboardPage(driver);
 
-        WebDriver driver = getChromeDriver();
-        loginTest(driver);
-        logoutTest(driver);
+        loginPage.openLoginPage();
+        loginPage.loginTest();
+        dashboardPage.logoutTest();
 
+        driver.quit();
     }
 }

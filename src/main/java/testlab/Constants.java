@@ -1,5 +1,7 @@
 package testlab;
 
+import org.openqa.selenium.remote.BrowserType;
+
 /**
  * Created by massacre99 on 01.03.2018.
  */
@@ -7,26 +9,7 @@ public class Constants {
     public static final String ADMIN_URL = "http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/";
     public static final String ADMIN_LOGIN = "webinar.test@gmail.com";
     public static final String ADMIN_PASS = "Xcg7299bnSmMuRLp9ITw";
+    public static final String DEFAULT_BROWSER = BrowserType.CHROME;
+    public static final String FIREFOX_BROWSER = BrowserType.FIREFOX;
+    public static final String IE_BROWSER = BrowserType.IE;
 }
-
-
-/*
-
- Разработать скрипты в виде обычного приложения (с использованием метода main():
-o Скрипт А. Логин в Админ панель
-1. Открыть страницу Админ панели
-2. Ввести логин, пароль и нажать кнопку Логин.
-3. После входа в систему нажать на пиктограмме пользователя в верхнем правом углу и выбрать опцию «Выход.»
-
-o Скрипт Б. Проверка работоспособности главного меню Админ панели
-1. Войти в Админ панель (по аналогии с предыдущим скриптом)
-2. Кликнуть на каждом видимом пункте главного меню (Dashboard, Заказы, Каталог, Клиенты…) для открытия соответствующего раздела и выполнить следующее:
-a. Вывести в консоль заголовок открытого раздела.
-b. Выполнить обновление (рефреш) страницы и проверить, что пользователь остается в том же разделе после перезагрузки страницы.
-
-Примечания: В процессе перехода между разделами может потребоваться ожидание загрузки контента и корректной отработки скриптов.
-На данный момент вы можете использовать стандартную задержку Thread.sleep() в необходимых местах.
-Корректное описание ожиданий драйвера будут рассмотрены на следующей лекции.
-
-
- */
