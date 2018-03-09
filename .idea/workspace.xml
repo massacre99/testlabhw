@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e2b393c-3a08-44e8-9923-c200914ccc2b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/IEDriverServer.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/geckodriver.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/testlab/pages/DashboardPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/testlab/pages/LoginPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/testlab/BaseSetup.java" afterPath="$PROJECT_DIR$/src/main/java/testlab/BaseSetup.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/testlab/CheckAdminMainMenu.java" afterPath="$PROJECT_DIR$/src/test/java/testlab/CheckAdminMainMenu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/testlab/Constants.java" afterPath="$PROJECT_DIR$/src/main/java/testlab/Constants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/testlab/LoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/testlab/LoginTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/testlabhw.iml" afterPath="$PROJECT_DIR$/.idea/testlabhw.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/testlab/pages/DashboardPage.java" afterPath="$PROJECT_DIR$/src/main/java/testlab/pages/DashboardPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/testlab/pages/LoginPage.java" afterPath="$PROJECT_DIR$/src/main/java/testlab/pages/LoginPage.java" />
     </list>
     <ignored path="testlabhw.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DashboardPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DashboardPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/testlab/pages/DashboardPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+            <state vertical-scroll-proportion="-0.722973">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseSetup.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BaseSetup.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/testlab/BaseSetup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33277026">
+            <state vertical-scroll-proportion="0.0">
               <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -76,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/testlab/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,8 +126,8 @@
         <option value="$PROJECT_DIR$/src/main/java/testlab/BaseSetup.java" />
         <option value="$PROJECT_DIR$/src/test/java/testlab/CheckAdminMainMenu.java" />
         <option value="$PROJECT_DIR$/src/test/java/testlab/LoginTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/testlab/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/testlab/pages/DashboardPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testlab/pages/LoginPage.java" />
       </list>
     </option>
   </component>
@@ -683,12 +673,12 @@
       <created>1519910362512</created>
       <option name="number" value="Default" />
       <updated>1519910362512</updated>
-      <workItem from="1519910370267" duration="27416000" />
+      <workItem from="1519910370267" duration="27550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27416000" />
+    <option name="totallyTimeSpent" value="27550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-520" width="1936" height="1056" extended-state="6" />
@@ -756,20 +746,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testlab/pages/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/testlab/BaseSetup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testlab/pages/DashboardPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -784,16 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testlab/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testlab/CheckAdminMainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -804,10 +774,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testlab/BaseSetup.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/testlab/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33277026">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testlab/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testlab/pages/DashboardPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.722973">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

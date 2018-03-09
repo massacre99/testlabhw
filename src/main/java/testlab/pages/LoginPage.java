@@ -27,9 +27,7 @@ public class LoginPage {
     public void loginTest() throws InterruptedException {
         driver.findElement(login).sendKeys(Constants.ADMIN_LOGIN);
         driver.findElement(password).sendKeys(Constants.ADMIN_PASS);
-//        Thread.sleep(1500);
         driver.findElement(submitLoginPassButton).click();
-//        Thread.sleep(2000);
     }
 
 

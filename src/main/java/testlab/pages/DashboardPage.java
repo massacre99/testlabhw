@@ -23,9 +23,7 @@ public class DashboardPage {
 
     public void logoutTest() throws InterruptedException {
         driver.findElement(profile).click();
-//        Thread.sleep(1500);
         driver.findElement(logout).click();
-//        Thread.sleep(1500);
     }
 
     // перебор по css локатору
@@ -56,14 +54,12 @@ public class DashboardPage {
         String item = String.format("//li[@data-submenu=\"%s\"]", value);
         WebElement menuItem = driver.findElement(By.xpath(item));
         menuItem.click();
-//        Thread.sleep(1500);
 
         String header = driver.findElement(By.tagName("h2")).getText();
         // By.xpath("//h2[@class=\"page-title\"]")
         System.out.println(header);
 
         driver.navigate().refresh();
-//        Thread.sleep(2000);
         String newHeader = driver.findElement(By.tagName("h2")).getText();
 
         if (header.equals(newHeader)) {
