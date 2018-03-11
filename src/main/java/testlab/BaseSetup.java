@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+
 import java.io.File;
 import java.util.concurrent.TimeUnit;
 
@@ -38,7 +40,10 @@ public class BaseSetup {
         driver.manage().window().maximize();
 //        driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
-        return  driver;
+
+        EventFiringWebDriver webDriver = new EventFiringWebDriver(driver);
+        webDriver.register(new EventLogger());
+        return  webDriver;
     }
 
 //    public static WebDriver getChromeDriver1() {
