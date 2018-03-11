@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 public class BaseSetup {
 
     public static WebDriver getDriver() {
-        String browser = Constants.DEFAULT_BROWSER; //TODO переписать под вызов нужного браузера
+        String browser = Constants.DEFAULT_BROWSER; //TODO code a method for calling browser
         switch (browser) {
             case "firefox":
                 String ffPath = new File(BaseSetup.class.getResource("/geckodriver.exe").getFile()).getPath();
@@ -36,8 +36,8 @@ public class BaseSetup {
     public static WebDriver getConfiguredDriver() {
         WebDriver driver = getDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
-        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+//        driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
         return  driver;
     }
 

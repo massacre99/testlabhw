@@ -12,4 +12,5 @@ public class Constants {
     public static final String DEFAULT_BROWSER = BrowserType.CHROME;
     public static final String FIREFOX_BROWSER = BrowserType.FIREFOX;
     public static final String IE_BROWSER = BrowserType.IE;
+    public static final String CATEGORY_NAME = "STREETWEAR";
 }

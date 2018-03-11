@@ -3,6 +3,7 @@ package testlab.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import testlab.Constants;
 
 /**
@@ -11,12 +12,14 @@ import testlab.Constants;
 public class LoginPage {
 
     private WebDriver driver;
+    private WebDriverWait wait;
     private By login = By.id("email");
     private By password = By.id("passwd");
     private By submitLoginPassButton = By.name("submitLogin");    // By.xpath("//button[@tabindex=4]")
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;
+        this.wait = new WebDriverWait(driver,10);
     }
 
 
